@@ -1,0 +1,2 @@
+env = Environment(CCFLAGS='-Wall -g')
+env.Program(target='prog', source=['main.cpp'])

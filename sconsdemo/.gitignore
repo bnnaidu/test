@@ -1,0 +1,31 @@
+# Build artifacts
+prog
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# SCons build files
+.sconsign.dblite
+.sconsign.*
+.sconsign
+*.log
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Python cache (SCons is Python-based)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Backup / temp files
+*~
+*.swp
+.DS_Store
+Thumbs.db
