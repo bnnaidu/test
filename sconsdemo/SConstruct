@@ -1,0 +1,2 @@
+env = Environment(CXX='g++', CXXFLAGS='-Wall -std=c++17')
+env.Program(target='prog', source=['main.cpp'])
